@@ -78,6 +78,7 @@
                 "ID": String(appid),
                 "SLUG-": slugify(appName, "-"),
                 "SLUG_": slugify(appName, "_"),
+                "SLUG+": slugify(appName, "+"),
             })}
             {#if href}
                 <ExtraLink {href}
